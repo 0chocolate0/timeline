@@ -24,7 +24,7 @@
 // });
 
 var swiper = new Swiper(".mySwiper", {
-  autoHeight: true,
+  autoHeight: false,
   spaceBetween: 20,
   navigation: {
     nextEl: ".swiper-button-next",
