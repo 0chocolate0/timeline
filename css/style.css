@@ -13,6 +13,7 @@
   justify-content: center;
   background-color: #00D3A1;
 }
+
 .timeline{
   position: relative;
   max-width: 850px;
@@ -23,16 +24,15 @@
   font-size: 1.2rem;
 
 }
+.slide{
+  padding: 5rem;
 
+}
 .septiembre,
 .octubre{
 margin-left: auto;
 }
-.slide{
-  padding: 5rem;
-  display: grid;
-  place-content: center;
-}
+
 .slide_header{
   display: flex;
   justify-content: space-between;
@@ -118,10 +118,11 @@ margin-left: auto;
 }
 
 @media screen and (max-width: 768px) {
-  .slide p {
-    padding: 0 20px;
+  .slide{
+    padding: 5rem;
+    display: grid;
+    place-content: center;
   }
-
 .slide_content{
   display: grid;
   grid-template-columns: 3fr 1fr;
@@ -146,6 +147,11 @@ margin-left: auto;
 
 }
 @media screen and (max-width: 542px) {
+  .slide{
+    padding: 5rem;
+    display: grid;
+    place-content: center;
+  }
   .timeline{
     position: relative;
     max-width: 850px;
@@ -186,6 +192,11 @@ margin-left: auto;
   }
 }
 @media screen and (max-width: 500px) {
+  .slide{
+    padding: 5rem;
+    display: grid;
+    place-content: center;
+  }
   .timeline{
     position: relative;
     max-width: 850px;
@@ -263,6 +274,11 @@ margin-left: auto;
 }
 }
 @media screen and (max-width: 460px) {
+  .slide{
+    padding: 5rem;
+    display: grid;
+    place-content: center;
+  }
   .timeline{
     position: relative;
     max-width: 850px;
@@ -323,6 +339,11 @@ margin-left: auto;
 }
 
 @media screen and (max-width: 400px) {
+  .slide{
+    padding: 5rem;
+    display: grid;
+    place-content: center;
+  }
   .timeline{
     position: relative;
     max-width: 850px;
