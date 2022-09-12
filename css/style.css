@@ -56,6 +56,9 @@ margin-left: auto;
   padding: 1rem;
   display: grid;
   align-items: center;
+  align-content: center;
+  place-content: left;
+  text-align: left;
   border: solid 1px #1f2633;
   text-align: left;
   font-size: 20px;
@@ -68,6 +71,10 @@ margin-left: auto;
   place-content: center;
   font-size: 1rem;
 }
+.slide_content p,
+.slide_content span{
+  height: 70px;
+}
 .slide_content {
   display: grid;
   grid-template-columns: 3fr 1fr;
@@ -75,13 +82,13 @@ margin-left: auto;
   grid-row-gap: 20px;
   width: 50%;
 }
-/* .slide_content span {
+.slide_content span {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100%;
   font-size: 1rem;
-} */
+}
 .slide_content .ago{
   background-color: #0F75AB;
   padding: .4rem;
@@ -145,7 +152,7 @@ top: -3rem;
 }
 .swiper-button-next{
   display: inline-block;
-  margin-left: 28.8rem;
+  margin-left: 26.8rem;
  }
  .swiper-button-prev{
   margin-left: 2rem;
@@ -155,23 +162,23 @@ top: -3rem;
 
 .etapas1{
   position: absolute;
-  margin-top: 7.2rem;
-  margin-left: 38rem;
+  margin-top: 10.75rem;
+  margin-left: 36rem;
 }
 .etapas2.b{
   position: absolute;
-  margin-top: 3.5rem;
-  margin-left: 38rem;
+  margin-top: 3rem;
+  margin-left: 36rem;
 }
 .etapas2.a{
   position: absolute;
-  margin-left: 1rem;
-  margin-top: 3.5rem;
+  margin-left: 1.5rem;
+  margin-top: 3rem;
 }
 .etapas3{
   position: absolute;
   margin-left: 1rem;
-  margin-top: 32rem;
+  margin-top: 33.28rem;
 }
 h3{
   transition: all 1s ease;
@@ -191,6 +198,10 @@ h3{
   margin-right: 3.2rem;
 }
 @media screen and (max-width: 768px) {
+  .slide_content p,
+.slide_content span{
+  height: auto;
+}
   .slide{
     padding: 5rem;
     display: grid;
